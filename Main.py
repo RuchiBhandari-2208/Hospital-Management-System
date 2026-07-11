@@ -1,6 +1,6 @@
 from Hospitalsystem import hospitalsystem
 
-hms=Hositalsystem()
+hms=hospitalsystem()
 
 while True:
 
@@ -15,19 +15,19 @@ while True:
     choice = input("Enter your choice:")
 
     if  choice == "1":
-       hsm.add_patient()
+       hms.Add_patient()
     
     elif choice == "2":
-        hms.display_patient()
+       hms.display_patient()
     
     elif choice == "3":
-        hms.search_patient()
+       hms.search_patient()
     
     elif choice == "4":
        hms.update_patient()
     
     elif choice == "5":
-        hms.delete_patient()
+       hms.delete_patient()
     
     elif choice == "6":
         print("Exit")
